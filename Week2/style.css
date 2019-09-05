@@ -1,0 +1,30 @@
+#mainheadline {
+    color:darkgreen;
+}
+
+.headlines {
+    font-family:Georgia;
+    text-align:center;
+
+}
+
+#maincontent .paragraphs {
+    line-height:25px;
+}
+
+a:link {
+    text-decoration: none;
+
+}
+
+a:hover {
+    text-decoration:underline;
+}
+
+img {
+    float: left;
+    height:300px;
+    width:300px;
+    padding-right:20px;
+
+}
