@@ -1,0 +1,250 @@
+.nav-bar {
+    position: fixed;
+    font-size: 1.5em;
+    text-align: center;
+    width: 100%;
+    background-color: rgb(55,44,22,.4);
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+.home{
+    position: relative;
+    right: 200px;
+}
+
+.menu {
+    position: relative;
+}
+
+.grid {
+    position: relative;
+    left: 250px;
+}
+
+body {
+    font-family: Arial;
+    padding: 20px;
+    background: #f1f1f1;
+  }
+  
+  /* Header/Blog Title */
+  .header {
+    padding: 30px;
+    font-size: 40px;
+    text-align: center;
+    background: white;
+  }
+  
+
+  /* Blog Post List */
+  .bloglist {
+    padding-left: 200px;
+    width: 75%;
+    text-align: center;
+  }
+  
+  
+  /* Cat Post Image */
+  #catimage {
+    background-image: url("https://images.pexels.com/photos/1406282/pexels-photo-1406282.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    background-repeat: no-repeat;
+    width: 460px;
+    padding: 20px;
+    margin-left: 425px;
+  }
+
+  /* Pet Post Image */
+  #petimage {
+    background-image: url("https://cdn.pixabay.com/photo/2016/01/19/17/41/friends-1149841__340.jpg");
+    background-repeat: no-repeat;
+    width: 460px;
+    padding: 20px;
+    margin-left: 425px;
+  }
+
+  /* Moving Post Image */
+  #movingimage {
+    background-image: url("https://images.unsplash.com/photo-1520038410233-7141be7e6f97?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+    background-repeat: no-repeat;
+    width: 460px;
+    padding: 20px;
+    margin-left: 425px;
+  }
+  
+  /* Add a card effect for articles */
+  .card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .readmorelinks {
+      text-decoration: underline !important;
+  }
+
+  #catblogimg {
+      background-image: url("https://images.pexels.com/photos/320014/pexels-photo-320014.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+      width: 400px;
+      height: 650px;
+      float: left;
+      margin: 30px;
+  }
+
+  #catdogimg {
+    background-image: url("https://cdn.pixabay.com/photo/2017/11/01/17/42/dog-and-cat-2908810__340.jpg");
+    width: 225px;
+    height: 340px;
+    float: left;
+    margin: 30px;
+}
+
+#movingpetimg {
+    background-image: url("https://cdn.pixabay.com/photo/2019/02/02/18/03/cats-3971069__340.jpg");
+    width: 400px;
+    height: 340px;
+    float: left;
+    margin: 30px;
+}
+
+/*END BLOG STYLE WEBPAGE CODE */
+
+
+
+/*BEGIN GRID PAGE CODE */
+
+* {
+    box-sizing: border-box;
+    font-size: 0px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    width: 800px;
+    height: 500px;
+}
+
+.item1 {
+    background-color: #F5C6D6;
+    font-size: 30px;
+    margin: 10px;
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    border: 1px solid whtie;
+}
+
+.item2 {
+    background-color: #EE2E84;
+    font-size: 30px;
+    margin: 10px;
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    border: 1px solid whtie;
+}
+
+.item3 {
+    background-color: #EE2E84;
+    font-size: 30px;
+    margin: 10px;
+    text-align: center;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    border: 1px solid whtie;
+}
+
+.item4 {
+    background-color: #EE2E84;
+    font-size: 30px;
+    margin: 10px;
+    text-align: center;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    border: 1px solid whtie;
+}
+
+.item5 {
+    background-color: #EE2E84;
+    font-size: 30px;
+    margin: 10px;
+    text-align: center;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    border: 1px solid whtie;
+}
+
+.item6 {
+    background-color: #85CFD8;
+    font-size: 30px;
+    margin: 10px;
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    border: 1px solid whtie;
+}
+
+.item7 {
+    background-color: #85CFD8;
+    font-size: 30px;
+    margin: 10px;
+    text-align: center;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    border: 1px solid whtie;
+}
+
+.item8 {
+    background-color: #8DC63F;
+    font-size: 30px;
+    margin: 10px;
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    border: 1px solid whtie;
+}
+
+.item9 {
+    background-color: #E76E34;
+    font-size: 30px;
+    margin: 10px;
+    text-align: center;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    border: 1px solid whtie;
+}
+
+
