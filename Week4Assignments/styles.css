@@ -127,10 +127,6 @@ body {
 
 /*BEGIN GRID PAGE CODE */
 
-* {
-    box-sizing: border-box;
-    font-size: 0px;
-}
 
 .grid-container {
     display: grid;
