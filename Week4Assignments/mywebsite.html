@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tiki Tails Dog Resort</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <a name="top"></a>
+        <nav>
+            <a href="#top">Home</a> | About | Services | Contact
+        </nav>
+        <br>
+        <header>
+            <p id="p1" class="headerfont">Welcome</p>
+            <br>
+            <br>
+            <p id="p2" class="headerfont">to</p>
+            <br>
+            <br>
+            <p id="p3" class ="headerfont">Tiki Tails!</p>
+            <img src="https://images.unsplash.com/photo-1516222338250-863216ce01ea?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60">
+            <p id="p4">Your dog's favorite tiki hangout!</p>
+        </header>
+        <br>
+        <main>
+            <div id="maintext">
+                <h1>Come play with us!</h1>
+                <br>
+                <p>We are a luxury dog resort that offers a "play-cation" for your dog</p>
+                <p>while you are away or at work. We believe every dog deserves the</p>
+                <p>same amount of loving care. This means, on matter their shape, size,</p>
+                <p>or personality type, we provide for them all the SAME way, for the</p>
+                <p>SAME price. It's that simple!</p>
+                <br>
+                <br>
+                <p>We offer overnight boarding in our Tiki Suites, while having access to</p>
+                <p>play groups throughout the day for no extra charge.</p>
+                <br>
+                <br>
+                <p>In addition, we offer daycare services. Feel free to drop them off for</p>
+                <p>a few hours or for our entire operating hours. Our daycare services</p>
+                <p>allow your pup to come enjoy themselves while you work, leisure or</p>
+                <p>just need us to provide a safe place for FUN!</p>
+            </div>
+
+            <div id="slideshow">
+                <img class="myslides" src="https://images.unsplash.com/photo-1568480487623-4d95844e1e66?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60">
+                <img class="myslides" src="https://images.unsplash.com/photo-1561130627-0456cca0bc4d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60">
+                <img class="myslides" src="https://images.unsplash.com/photo-1536603884385-6e705b645a73?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60">
+            </div>
+            <script>
+                var myIndex = 0;
+                carousel();
+
+                function carousel() {
+                    var i;
+                    var x = document.getElementsByClassName("myslides");
+                    for (i = 0; i < x.length; i++) {
+                        x[i].style.display = "none";  
+                    }
+                    myIndex++;
+                    if (myIndex > x.length) {myIndex = 1}    
+                    x[myIndex-1].style.display = "block";  
+                    setTimeout(carousel, 2000); // Change image every 2 seconds
+                    }
+            </script>
+        </main>
+        <section>
+            <div id="servicesection">
+                <h1>Our Services and Prices</h1>
+                    <ul><span>Daycare</span>
+                        <li>Half day (up to 4 hours)- $15</li>
+                        <li>Full day (over 4 hours) - $25</li>
+                    </ul>
+                    <ul><span>Boarding</span>
+                        <li>$45 per night</li>
+                    </ul>
+            </div>
+            <table id="hourstable">
+                <tr>
+                    <th colspan="3">Pick-Up/Drop-off Hours</th>
+                </tr>
+                <tr>
+                    <td>Monday</td>
+                    <td>7:00am</td>
+                    <td>6:00pm</td>
+                </tr>
+                <tr>
+                    <td>Tuesday</td>
+                    <td>7:00am</td>
+                    <td>6:00pm</td>
+                </tr>
+                <tr>
+                    <td>Wednesday</td>
+                    <td>7:00am</td>
+                    <td>6:00pm</td>
+                </tr>
+                <tr>
+                    <td>Thursday</td>
+                    <td>7:00am</td>
+                    <td>6:00pm</td>
+                </tr>
+                <tr>
+                    <td>Friday</td>
+                    <td>7:00am</td>
+                    <td>6:00pm</td>
+                </tr>
+                <tr>
+                    <td>Saturday</td>
+                    <td>8:00am</td>
+                    <td>4:30pm</td>
+                </tr>
+                <tr>
+                    <td>Sunday</td>
+                    <td>8:00am</td>
+                    <td>4:30pm</td>
+                </tr>
+                
+            </table>
+
+        </section>
+        
+    </body>
+
+</html>
