@@ -1,0 +1,89 @@
+#gridone {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 500px;
+    height: 150px;
+}
+
+#cone {
+    background-color: red;
+    grid-column: 1/3;
+    border: 3px solid white;
+    border-radius: 10px;
+
+}
+
+#ctwo {
+    background-color: blue;
+    grid-column: 3/5;
+    border: 3px solid white;
+    border-radius: 10px;
+
+}
+
+#cthree {
+    background-color: green;
+    grid-column: 1/2;
+    border: 3px solid white;
+    border-radius: 10px;
+
+}
+
+#cfour {
+    background-color: purple;
+    grid-column: 2/5;
+    border: 3px solid white;
+    border-radius: 10px;
+
+}
+
+#cfive {
+    background-color: yellow;
+    grid-column: 1/5;
+    border: 3px solid white;
+    border-radius: 10px;
+
+}
+
+#gridtwo {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 320px;
+    height: 310px;
+}
+
+#csix {
+    background-color: red;
+    grid-column: 1/5;
+    border: 3px solid white;
+    border-radius: 10px;
+}
+
+#cseven{
+    background-color: blue;
+    grid-column: 1/3;
+    grid-row: 2/4;
+    border: 3px solid white;
+    border-radius: 10px;
+}
+
+#ceight {
+    background-color: green;
+    grid-column: 3/5;
+    border: 3px solid white;
+    border-radius: 10px;
+}
+
+#cnine {
+    background-color: purple;
+    grid-column: 3/4;
+    border: 3px solid white;
+    border-radius: 10px;
+}
+
+#cten {
+    background-color: purple;
+    grid-column: 4/5;
+    border: 3px solid white;
+    border-radius: 10px;
+}
