@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scare=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <title>Tiki Tails Home</title>
+    </head>
+
+    <body>
+            <a name="topofhome"></a>
+        <div id="home-container">
+            <div id="menu">
+                <nav id=navbar>
+                    <a href="#topofhome" class="current">Home</a>
+                    <a href="./about.html">About</a>
+                    <a href="./services.html">Services</a>
+                    <a href="./contact.html">Contact</a>
+                </nav>
+            </div>
+            <header id="homeheader">
+                <div id="headerimage"></div>
+
+            </header>
+            <section id="leftsection" class="middlesection">
+                    <h1>Come Play With Us!</h1>
+                    <p>
+                        <span>We are a luxury dog resort that offers a "play-cation" for your dog</span>
+                        <span>while you are away or at work. We believe every dog deserves the</span>
+                        <span>same amount of loving care. This means, no matter their shape, size,</span>
+                        <span>or personality type, we provide for them all the SAME way, for the</span>
+                        <span>SAME price. It's that simple!</span>
+                    </p>
+                    <p>
+                        <span>We offer overnight boarding in our Tiki Suites, while having access to</span>
+                        <span>play groups throughout the day for no extra charge.</span>
+                    </p>
+                    <p>
+                        <span>In addition, we offer daycare services. Feel free to drop them off for</span>
+                        <span>a few hours or for our entire operating hours. Our daycare services</span>
+                        <span>allow your pup to come enjoy themselves while you work, leisure or</span>
+                        <span>just need us to provide a safe place for FUN!</span>
+                    </p>
+                    <br>
+                    <br>
+                    <br>
+                    <button><a href="./contact.html">Contact Us</a></button>
+
+            </section>
+            <section id="rightsection" class="middlesection">
+                <div id="slideshow">
+                    <img class="myslides" src="https://125782797-414617801136956789.preview.editmysite.com/uploads/1/2/5/7/125782797/website-photo-outdoor_1_orig.jpg">
+                    <img class="myslides" src="https://125782797-414617801136956789.preview.editmysite.com/uploads/1/2/5/7/125782797/img-2342-2_orig.jpg">
+                    <img class="myslides" src="https://125782797-414617801136956789.preview.editmysite.com/uploads/1/2/5/7/125782797/img-2342-2_orig.jpg">
+                    <img class="myslides" src="https://125782797-414617801136956789.preview.editmysite.com/uploads/1/2/5/7/125782797/img-2359_orig.jpg">
+                    <img class="myslides" src="https://125782797-414617801136956789.preview.editmysite.com/uploads/1/2/5/7/125782797/img-2365_orig.jpg">
+                    <img class="myslides" src="https://125782797-414617801136956789.preview.editmysite.com/uploads/1/2/5/7/125782797/website-photos-1_orig.jpg">
+                    <img class="myslides" src="https://125782797-414617801136956789.preview.editmysite.com/uploads/1/2/5/7/125782797/website-3_orig.jpg">
+                    <img class="myslides" src="https://125782797-414617801136956789.preview.editmysite.com/uploads/1/2/5/7/125782797/img-6694_orig.jpg">
+                    <img class="myslides" src="https://125782797-414617801136956789.preview.editmysite.com/uploads/1/2/5/7/125782797/image4_orig.jpeg">
+                    <img class="myslides" src="https://125782797-414617801136956789.preview.editmysite.com/uploads/1/2/5/7/125782797/img-6689_orig.jpg">
+                    <img class="myslides" src="https://125782797-414617801136956789.preview.editmysite.com/uploads/1/2/5/7/125782797/img-6695_orig.jpg">
+                    <img class="myslides" src="https://125782797-414617801136956789.preview.editmysite.com/uploads/1/2/5/7/125782797/website-2_orig.jpg">
+                    <img class="myslides" src="https://125782797-414617801136956789.preview.editmysite.com/uploads/1/2/5/7/125782797/webiste4_orig.jpg">
+                    <img class="myslides" src="https://125782797-414617801136956789.preview.editmysite.com/uploads/1/2/5/7/125782797/61549345-814770298904887-7322259214875754496-n_orig.jpg">
+                    <img class="myslides" src="https://125782797-414617801136956789.preview.editmysite.com/uploads/1/2/5/7/125782797/emma-deronde_orig.jpg">
+                    
+                </div>
+                <script>
+                        var myIndex = 0;
+                        carousel();
+        
+                        function carousel() {
+                            var i;
+                            var x = document.getElementsByClassName("myslides");
+                            for (i = 0; i < x.length; i++) {
+                                x[i].style.display = "none";  
+                            }
+                            myIndex++;
+                            if (myIndex > x.length) {myIndex = 1}    
+                            x[myIndex-1].style.display = "block";  
+                            setTimeout(carousel, 3000); // Change image every 3 seconds
+                            }
+                </script>
+            </section>
+            <section id="homehours" class="bottomsection">
+                <h1>Drop-Off/ Pick-Up Hours</h1>
+                <table>
+                    <tr>
+                        <td>Monday<td>
+                        <td>7:00am</td>
+                        <td>-6:00pm</td>
+                    </tr>
+                    <tr>
+                        <td>Tuesday<td>
+                        <td>7:00am</td>
+                        <td>-6:00pm</td>
+                    </tr>
+                    <tr>
+                        <td>Wednesday<td>
+                        <td>7:00am</td>
+                        <td>-6:00pm</td>
+                    </tr>
+                        <tr>
+                        <td>Thursday<td>
+                        <td>7:00am</td>
+                        <td>-6:00pm</td>
+                    </tr>
+                    <tr>
+                        <td>Friday<td>
+                        <td>7:00am</td>
+                        <td>-6:00pm</td>
+                    </tr>
+                    <tr>
+                        <td>Saturday<td>
+                        <td>8:00am</td>
+                        <td>-4:30pm</td>
+                    </tr>
+                    <tr>
+                        <td>Sunday<td>
+                        <td>8:00am</td>
+                        <td>-4:30pm</td>
+                    </tr>
+                </table>
+            </section>
+            <section id="tours" class="bottomsection">
+                <h1>Tours</h1>
+                <button><a href="./virtualtour.html">Virtual Tour</a></button>
+                <p>
+                    <span>We do <i>not</i> allow on premise touring.</span>
+                    <span>Please take time to view the link above for a very involved virtual tour!</span>
+                    <span>Feel free to call with any specific questions.</span>
+                    <span><i>(239)471-7329</i></span>
+                </p>
+            </section>
+            <footer>
+                <p>Tiki Tails Dog Resort - 4414 SE 16th Pl, Cape Coral, FL 33904 - (239) 471-7329</p>
+                <p>&copy; Tiki Tails Dog Resort 2019</p>
+            </footer>
+
+        </div>
+    </body>
+
+</html>

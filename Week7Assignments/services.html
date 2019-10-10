@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scare=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <title>About</title>
+    </head>
+    
+    <body>
+            <a name="topofservices"></a>
+        <div id="services-container">
+                <div id="menu">
+                    <nav id=navbar>
+                        <a href="./home.html">Home</a>
+                        <a href="./about.html">About</a>
+                        <a href="#topofservices" class="current">Services</a>
+                        <a href="./contact.html">Contact</a>
+                    </nav>
+                </div>
+            <section id="serviceshead">
+                    <h1>Services</h1>
+            </section>
+            <section id="slideshowcontainer" class="servicesmiddle">
+                    <div id="slideshow">
+                            <img class="servicesslides" src="https://125782797-414617801136956789.preview.editmysite.com/uploads/1/2/5/7/125782797/website-photo-outdoor_1_orig.jpg">
+                            <img class="servicesslides" src="https://125782797-414617801136956789.preview.editmysite.com/uploads/1/2/5/7/125782797/img-2342-2_orig.jpg">
+                            <img class="servicesslides" src="https://125782797-414617801136956789.preview.editmysite.com/uploads/1/2/5/7/125782797/img-2342-2_orig.jpg">
+                            <img class="servicesslides" src="https://125782797-414617801136956789.preview.editmysite.com/uploads/1/2/5/7/125782797/img-2359_orig.jpg">
+                            <img class="servicesslides" src="https://125782797-414617801136956789.preview.editmysite.com/uploads/1/2/5/7/125782797/img-2365_orig.jpg">
+                            <img class="servicesslides" src="https://125782797-414617801136956789.preview.editmysite.com/uploads/1/2/5/7/125782797/website-photos-1_orig.jpg">
+                            <img class="servicesslides" src="https://125782797-414617801136956789.preview.editmysite.com/uploads/1/2/5/7/125782797/website-3_orig.jpg">
+                            <img class="servicesslides" src="https://125782797-414617801136956789.preview.editmysite.com/uploads/1/2/5/7/125782797/img-6694_orig.jpg">
+                            <img class="servicesslides" src="https://125782797-414617801136956789.preview.editmysite.com/uploads/1/2/5/7/125782797/image4_orig.jpeg">
+                            <img class="servicesslides" src="https://125782797-414617801136956789.preview.editmysite.com/uploads/1/2/5/7/125782797/img-6689_orig.jpg">
+                            <img class="servicesslides" src="https://125782797-414617801136956789.preview.editmysite.com/uploads/1/2/5/7/125782797/img-6695_orig.jpg">
+                            <img class="servicesslides" src="https://125782797-414617801136956789.preview.editmysite.com/uploads/1/2/5/7/125782797/website-2_orig.jpg">
+                            <img class="servicesslides" src="https://125782797-414617801136956789.preview.editmysite.com/uploads/1/2/5/7/125782797/webiste4_orig.jpg">
+                            <img class="servicesslides" src="https://125782797-414617801136956789.preview.editmysite.com/uploads/1/2/5/7/125782797/61549345-814770298904887-7322259214875754496-n_orig.jpg">
+                            <img class="servicesslides" src="https://125782797-414617801136956789.preview.editmysite.com/uploads/1/2/5/7/125782797/emma-deronde_orig.jpg">
+                            
+                    </div>
+                    <script>
+                            var myIndex = 0;
+                            carousel();
+            
+                            function carousel() {
+                                var i;
+                                var x = document.getElementsByClassName("servicesslides");
+                                for (i = 0; i < x.length; i++) {
+                                    x[i].style.display = "none";  
+                                }
+                                myIndex++;
+                                if (myIndex > x.length) {myIndex = 1}    
+                                x[myIndex-1].style.display = "block";  
+                                setTimeout(carousel, 3000); // Change image every 3 seconds
+                                }
+                    </script>
+                    <br>
+
+            </section>
+            <section id="servicestextcontainer" class="servicesmiddle">
+                <div id="servicestext">
+                    <h1>Daycare</h1>
+                    <p>
+                        <span>To accommodate our busy doggy parents, we offer</span>
+                        <span>drop off daycare services anytime of day, 7 days a</span>
+                        <span>week! While you are at work, leisure or you just</span>
+                        <span>want your dog to get some play time in, feel free to</span>
+                        <span>leave your best friend with us!</span>
+                    </p>
+                    <section id="pickupdropoff" class="hoursfont">
+                    <h4>Pick up/ Drop off Hours:</h4>
+                    <p>
+                        <span>Monday thru Friday 7am-6pm</span>
+                        <span>Saturday & Sunday 8am-4:30pm</span>
+                    </p>
+                    </section>
+                </div>
+
+            </section>
+            <section id="extrasection">
+                <div id="extratext">
+                    <p>
+                        <span>Check out our Facebook Page Story Stream daily</span>
+                        <span>for videos & photos of your dogs while playing at</span>
+                        <span>Tiki Tails!</span>
+                    </p>
+                    <p><button><a href="www.facebook.com/tikitailsdogresort">Click Here!</a></button><span>to access, then click our profile</span>
+                        <span>picture to view story!</span>
+
+                    </p>
+                </div>
+            </section>
+            <section id="costs">
+                <table>
+                    <tr>
+                        <td colspan="2"> <b>Full Day</b></td>
+                        <td>-$25</td>
+                        <td>(Anything over 4 hours)</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><b>Half Day</b></td>
+                        <td>-$15</td>
+                        <td>(4 hours or less)</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><b>(5) Day package of Full Day Daycare</b></td>
+                        <td>-$100</td>
+                    </tr>
+                    
+                </table>
+            </section>
+
+            <section id="vaccines">
+                <div id="vaccinelist">
+                    <span class="hoursfont">Veterinary Requirements for Boarding & Daycare:</span>
+                    <ul class="hoursfont">
+                        <li>DA2PP</li>
+                        <li>Rabies</li>
+                        <li>Leptospirosis</li>
+                        <li>Bordetella</li>
+                        <li>Negative Fecal Check in the past 6 months</li>
+                    </ul>
+                </div>
+            </section>
+            <section id="homehours" class="bottomsection">
+                    <h1>Drop-Off/ Pick-Up Hours</h1>
+                    <table>
+                        <tr>
+                            <td>Monday<td>
+                            <td>7:00am</td>
+                            <td>-6:00pm</td>
+                        </tr>
+                        <tr>
+                            <td>Tuesday<td>
+                            <td>7:00am</td>
+                            <td>-6:00pm</td>
+                        </tr>
+                        <tr>
+                            <td>Wednesday<td>
+                            <td>7:00am</td>
+                            <td>-6:00pm</td>
+                        </tr>
+                            <tr>
+                            <td>Thursday<td>
+                            <td>7:00am</td>
+                            <td>-6:00pm</td>
+                        </tr>
+                        <tr>
+                            <td>Friday<td>
+                            <td>7:00am</td>
+                            <td>-6:00pm</td>
+                        </tr>
+                        <tr>
+                            <td>Saturday<td>
+                            <td>8:00am</td>
+                            <td>-4:30pm</td>
+                        </tr>
+                        <tr>
+                            <td>Sunday<td>
+                            <td>8:00am</td>
+                            <td>-4:30pm</td>
+                        </tr>
+                    </table>
+                </section>
+                <section id="tours" class="bottomsection">
+                    <h1>Tours</h1>
+                    <button><a href="./virtualtour.html">Virtual Tour</a></button>
+                    <p>
+                        <span>We do <i>not</i> allow on premise touring.</span>
+                        <span>Please take time to view the link above for a very involved virtual tour!</span>
+                        <span>Feel free to call with any specific questions.</span>
+                        <span><i>(239)471-7329</i></span>
+                    </p>
+                </section>
+                <footer>
+                    <p>Tiki Tails Dog Resort - 4414 SE 16th Pl, Cape Coral, FL 33904 - (239) 471-7329</p>
+                    <p>&copy; Tiki Tails Dog Resort 2019</p>
+                </footer>
+        </div>
+    </body>
+
+
+</html>
